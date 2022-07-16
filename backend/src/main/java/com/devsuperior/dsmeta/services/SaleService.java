@@ -1,5 +1,4 @@
-package com.devsuperior.dsmeta.sevices;
-
+package com.devsuperior.dsmeta.services;
 import java.time.Instant;
 import java.time.LocalDate;
 import java.time.ZoneId;
@@ -28,3 +27,4 @@ public class SaleService {
 		return repository.findSales(min, max, pageable);
 	}
 }
+
